@@ -1,4 +1,9 @@
 # DTAmeta
+## Important
+First install "cmake" using the following code:
+
+    brew install cmake
+
 ## References
 A new method for synthesizing test accuracy data outperformed the bivariate method
     DOI: https://doi.org/10.1016/j.jclinepi.2020.12.015
