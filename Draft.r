@@ -1,21 +1,15 @@
-# Install dependencies
-install.packages("nloptr")
-install.packages("lme4")
-install.packages("arm")
-install.packages("dplyr")
-install.packages("ggplot2")
-
 # Import dependencies
 library(arm)
 library(dplyr)
 library(ggplot2)
 
 # Import data
-Data <- read.csv("Data.csv")
-Data <- Data[order(Data$Modality) , ]
-Data <- Data[order(Data$ID) , ]
+Data <- read.csv("Data_modified.csv")
 
-
+# Subset data
+attach(Data)
+newdata <- Data[ which(Modality=='rs-fMRI'),]
+detach(Data)
 
 ### MAIN FUNCTION ###
 # Data correction

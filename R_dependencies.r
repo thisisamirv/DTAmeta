@@ -1,0 +1,5 @@
+install.packages("nloptr")
+install.packages("lme4")
+install.packages("arm")
+install.packages("dplyr")
+install.packages("ggplot2")

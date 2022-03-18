@@ -9,6 +9,7 @@ TPs = []
 TNs = []
 FPs = []
 FNs = []
+mod = []
 
 for i in enumerate(data['SEN']):
     print(i[0])
@@ -22,3 +23,12 @@ for i in enumerate(data['SEN']):
     TNs.append(result[TN])
     FPs.append(result[FP])
     FNs.append(result[FN])
+    mod.append(data['Modality'][i[0]])
+    d = {'Modality':mod, 'TP':TPs, 'TN':TNs, 'FP':FPs, 'FN':FNs}
+    df = pd.DataFrame(d)
+    if result[TP]<0 or result[TN]<0 or result[FP]<0 or result[FN]<0:
+        print("ERROR")
+    else:
+        continue
+
+df.to_csv('Data_Modified.csv')
