@@ -1,7 +1,6 @@
 # Install dependencies
 install.packages("nloptr")
 install.packages("lme4")
-install.packages("readxl")
 install.packages("arm")
 install.packages("dplyr")
 install.packages("ggplot2")
@@ -12,8 +11,9 @@ library(dplyr)
 library(ggplot2)
 
 # Import data
-Data <- readxl::read_excel("ASD-Data-EEG.xlsx")
-Data <- Data[order(Data$`Author`) , ]
+Data <- read.csv("Data.csv")
+Data <- Data[order(Data$Modality) , ]
+Data <- Data[order(Data$ID) , ]
 
 
 
