@@ -1,233 +1,197 @@
 ﻿Modality,Feature_Set,Parcellation,FS1,FS2,FS3,ASD,TD,N,Dataset,Validation,ACC,SEN,SPE,Age1,Age2,Classifier,AI_Spec,RoB1,RoB2,RoB3,RoB4,ID,Year
-Multimodal,sMRI + DWI/DTI,,VBM,,,14,33,47,Other,Split,75.3,24.8,97,C,,Ensemble,RF,Low,Low,Low,Low,Payabvash 2019,2019
-EEG,Event-related potentials,128,GA,,,19,112,131,Other,Split,70,40,100,B,A,SVM,Linear kernel,High,Low,Low,Low,Gui 2021,2021
-rs-fMRI,Dynamic functional connectivity,AAL116,BS,,,25,25,50,Other,Split,53,50,55,C,,Others,-,High,Low,Low,Low,Schirmer 2021,2021
-s-MRI,Volume-based morphological features,,VBM,,,79,105,184,ABIDE,Split,70,53,72,D,C,Others,PBL-McRBFN,Unclear,Low,Low,Low,Vigneshwaran 2013,2013
-Multimodal,rs-fMRI + DWI/DTI,,Graph based,,,403,468,871,ABIDE,Split,60.9,53.5,69.4,D,C,SVM,RBF kernel,High,Low,Low,Low,Brahim 2020,2020
-rs-fMRI,ROI-based functional connectivity,BASC64,BOF,,,75,100,175,ABIDE,k-fold,69.7,54.6,80.9,D,C,SVM,RBF kernel,High,Low,Low,Low,Cancino 2021,2021
-Multimodal,Kinematic + Eye tracking,,t test,LLFS,,22,22,44,Other,Split,78,57,99,D,,SVM,RBF kernel,Low,N/A,Low,High,Vabalas 2020,2020
-s-MRI,Surface-based morphological features + Cortical thickness,,None,,,361,373,734,ABIDE,LOOCV,60,57,64,D,C,Ensemble,RF,High,Unclear,High,Low,Katuwal 2015,2015
-rs-fMRI,Normalized image,EPI images,None,,,74,98,172,ABIDE,Split,57.8,57.2,61.3,D,C,CNN,InceptionResNet V2,High,Low,Low,Low,Dominic 2021,2021
-rs-fMRI,ROI-based functional connectivity,AAL116,t test,,,119,144,263,ABIDE,k-fold,67.4,58.3,75,C,,Others,-,Unclear,High,Low,Low,Kam 2017,2017
-Multimodal,rs-fMRI + sMRI,,AE,LLFS,PCA,538,573,1111,ABIDE,Split,64.3,60,68.3,D,C,SVM,Multi kernel,High,Low,Low,Low,Sen 2018,2018
-rs-fMRI,ROI-based functional connectivity,HO110,None,,,306,350,656,ABIDE,Split,62.5,60,65,D,C,Ensemble,CRF,High,Low,Low,Low,Fredo 2019,2019
-rs-fMRI,Dynamic functional connectivity,AAL116,LLFS,LASSO,,45,47,92,ABIDE,k-fold,71.4,60.5,81.6,C,,SVM,RBF kernel,Low,Low,High,Low,Wee 2016,2016
-rs-fMRI,ROI-based functional connectivity,DLA39,MSDL,,,403,468,871,ABIDE,LOOCV,67,61,72.3,D,C,SVM,Linear kernel,High,Low,High,Low,Abraham 2017,2017
-rs-fMRI,Graph theory,CC200,Graph based,,,493,530,1023,ABIDE,k-fold,59.2,61.4,57.4,D,C,FCNN,-,High,Low,Low,Low,Kazeminejad 2020,2020
-rs-fMRI,Dynamic functional connectivity,CC200,Manual,,,147,146,293,ABIDE,k-fold,61.1,61.8,60,D,C,SVM,Linear kernel,Unclear,Low,Unclear,Low,Tejwani 2017,2017
-rs-fMRI,Whole brain intrinsic functional connectivity,Whole brain,t test,,,447,517,964,ABIDE,LOOCV,60,62,58,D,C,LR,Simple LR,High,Low,High,Low,Nielsen 2013,2013
-rs-fMRI,ROI-based functional connectivity,CC200,Threshold,,,77,77,154,ABIDE,k-fold,63,62,64,D,,SVM,Linear kernel,Low,Low,Low,Low,Kassraian-Fard 2016,2016
-rs-fMRI,ROI-based functional connectivity,CC200,None,,,505,530,1035,ABIDE,k-fold,70.8,62.2,79.1,D,C,AE + Softmax,Stacked SAE,High,Low,Low,Low,Almuqhim 2021,2021
-s-MRI,Volume-based morphological features + Personal characteristics,,Manual,,,220,303,523,ABIDE,k-fold,64,63,65,All,,SVM,Not mentioned,High,Unclear,Unclear,Low,Germann 2021,2021
-rs-fMRI,ROI-based functional connectivity,AAL116,None,,,403,468,871,ABIDE,k-fold,69.8,63.1,75.6,D,C,FCNN,-,High,Low,Low,Low,Hu 2020,2020
-rs-fMRI,Graph theory + Personal characteristics,BNA246,Graph based,,,270,305,575,ABIDE,k-fold,74.5,63.5,84.3,D,C,CNN,Self-proposed,High,Low,Low,Low,Byeon 2020,2020
-rs-fMRI,Effective connectivity,HO110,DR,ICA,t test,127,135,262,ABIDE,LOOCV,69,63.5,74.6,D,C,Others,-,High,Low,High,Low,Haghighat 2022,2022
-rs-fMRI,ROI-based functional connectivity,DOS160,Extra tree,,,403,468,871,ABIDE,k-fold,80.5,63.7,100,D,C,SVM,Linear kernel,High,Low,Low,Low,Benabdallah 2021,2021
-rs-fMRI,ROI-based functional connectivity,DOS160,SDAE,,,457,483,940,ABIDE,k-fold,64,63.8,64.4,D,C,SVM,RBF kernel,High,High,Low,Low,Xu 2021,2021
-rs-fMRI,ROI-based functional connectivity,AAL116,Masking,,,510,536,1046,ABIDE,k-fold,69.2,64.7,73.5,D,C,AE + Softmax,Stacked SAE,High,High,Unclear,Low,Jung 2021,2021
-rs-fMRI,ROI-based functional connectivity,Multi atlas,None,,,200,200,400,ABIDE,Split,65,65.1,64.9,D,C,Ensemble,CRF,High,Low,Low,Low,Fredo 2018,2018
-rs-fMRI,ROI-based functional connectivity + Personal characteristics,HO110,None,,,200,200,400,ABIDE,Split,65,65.1,64.9,C,,Ensemble,CRF,Low,Low,Low,Low,Reiter 2021,2021
-rs-fMRI,ROI-based functional connectivity,Brodmann’s areas,Elastic Nets,,,167,205,372,ABIDE,k-fold,70,65,75,C,,SVM,Linear kernel,High,Low,Low,Low,Bhaumik 2018,2018
-rs-fMRI,Graph theory,AAL116,None,,,402,464,866,ABIDE,k-fold,67.2,65.9,68.4,D,C,GNN,hi-GCN + RBF-SVM,High,Low,Low,Low,Jiang 2020,2020
-s-MRI,Normalized image,,None,,,500,500,1000,ABIDE,,71,69,72,D,C,CNN,3D-ResNet,Unclear,High,Unclear,Low,Chen 2021,2021
-rs-fMRI,ROI-based functional connectivity,CC200,Extra tree,,,506,548,1054,ABIDE,k-fold,67.7,66.3,68.9,D,C,SVM,Linear kernel,High,Low,Low,Low,Liu 2020-2,2020
-rs-fMRI,ROI-based functional connectivity,AAL90,EW,,,527,569,1096,ABIDE,k-fold,66.9,66.4,70.4,D,C,CNN,Self-proposed,High,High,Low,Low,Xing 2018,2018
-rs-fMRI,Whole brain intrinsic functional connectivity,Whole brain,ICA,DR,,20,20,40,NDAR,LOOCV,83,67,100,C,,LR,Simple LR,Low,Low,Low,Low,Uddin 2013,2013
-Multimodal,rs-fMRI + sMRI,,None,,,481,526,1007,ABIDE,k-fold,72.7,67.8,76.6,D,C,GNN,ANE + FCNN,High,Low,Low,Low,Chen 2021,2021
-rs-fMRI,Dynamic functional connectivity + Whole brain intrinsic functional connectivity,Whole brain,WT,,,210,249,459,ABIDE,k-fold,70.5,67.9,74.2,C,B,CNN,Self-proposed,High,High,Low,Low,Aghdam 2019,2019
-EEG,Event-related potentials,128,Manual,,,19,30,49,Other,LOOCV,79,68,87,C,,Others,-,High,Low,Low,Low,Eldridge 2014,2014
-rs-fMRI,ROI-based functional connectivity,CC200,None,,,505,530,1035,ABIDE,k-fold,70.3,68.3,72.2,D,C,AE + Softmax,-,High,Low,Low,Low,Eslami 2019,2019
-Eye Tracking,Observing images,,LLFS,,,14,14,28,Other,Split,59.3,68.4,50.6,C,,Others,-,Low,N/A,Low,Low,Arru 2019,2019
-rs-fMRI,Graph theory,HO110,RFE,,,539,573,1112,ABIDE,k-fold,73,68.8,76.9,D,C,GNN,GFT + FCNN,High,Low,Low,Low,Cao 2021,2021
-Eye Tracking,Watching videos,,GA,,,76,30,106,Other,k-fold,82,69,93,C,B,FCNN,-,Unclear,N/A,Low,Low,Oliviera 2021,2021
-rs-fMRI,ROI-based functional connectivity,HO110,Threshold,,,102,88,190,ABIDE,LOOCV,71,69,74,C,,SVM,Linear kernel,High,Low,High,Low,Spera 2019,2019
-rs-fMRI,Graph theory,AAL90,EW,,,474,539,1013,ABIDE,k-fold,68.7,69.2,68.3,D,C,CNN,Self-proposed,High,Low,Low,Low,Brown 2018,2018
-rs-fMRI,ROI-based functional connectivity + Amplitude of low-frequency fluctuation,AAL90,None,,,99,85,184,ABIDE,k-fold,68.5,69.5,67.6,D,C,CNN,Standard,High,Low,Low,Low,You 2020,2020
-rs-fMRI,ROI-based functional connectivity,CC400,None,,,505,530,1035,ABIDE,Split,79.2,69.6,85,D,C,CNN,AlexNet,High,Low,Low,Low,Boppana 2021,2021
 DWI/DTI,Graph theory,,Graph based,LLFS,,43,51,94,ABIDE,LOOCV,68,70,65.3,C,,Ensemble,-,Unclear,Low,High,Low,Tolan 2018,2018
-DWI/DTI,Fractional anisotropy + Mean diffusivity + Axial diffusivity + Radial diffusivity + Skewness,,S2n,,,124,139,263,NDAR,LOOCV,73,70,76,C,,SVM,Linear kernel,High,Low,High,Low,Elnakieb 2020,2020
-rs-fMRI,ROI-based functional connectivity,CC400,None,,,505,530,1035,ABIDE,k-fold,76,70,81.7,D,C,CNN,Self-proposed,High,Low,Low,Low,Shrivastava 2020,2020
-rs-fMRI,Graph theory,Whole brain,Graph based,LLFS,,42,37,79,ABIDE,LOOCV,67,70,63.9,C,,Ensemble,-,Unclear,Low,High,Low,Tolan 2018,2018
-rs-fMRI,ROI-based functional connectivity,AAL116,SLR,,,250,218,468,ABIDE,k-fold,69.1,70.2,66.4,D,C,KNN,-,High,Low,Low,Low,Wang 2018,2018
-rs-fMRI,Graph theory,Multi atlas,None,,,485,544,1029,ABIDE,Split,67.3,70.4,64.2,D,C,GNN,MT + KNN,High,Low,Low,Low,Yao 2019,2019
-rs-fMRI,ROI-based functional connectivity,CC200,F score,,,505,530,1035,ABIDE,k-fold,70.9,70.7,75.5,D,C,AE + Softmax,-,High,Low,Low,Low,Zhang 2022,2022
-T-MRI,Biological motion perception task,,Bootstrap,,,21,19,40,Other,k-fold,64.5,70.7,60.9,B,,Others,-,Unclear,Low,High,Unclear,Dvornek 2018,2018
-rs-fMRI,ROI-based functional connectivity,CC400,None,,,505,530,1035,ABIDE,k-fold,72,70.9,73,D,C,LR,Ridge LR,High,Low,Low,Low,Yang 2019,2019
-Eye Tracking,Saliency maps,,None,,,14,14,28,Other,Split,62.1,71,54,C,,CNN,ResNet-50,Unclear,N/A,Low,Unclear,Liaqat 2021,2021
-rs-fMRI,ROI-based functional connectivity,CC200,None,,,505,530,1035,ABIDE,k-fold,71,71.1,70.9,D,C,CNN,Self-proposed,High,Low,Low,Low,Zhuang 2019,2019
-DWI/DTI,Fiber density + Fiber bundle cross-section,,t test,LASSO,RFE,26,26,52,NDAR,k-fold,73.1,71.1,75.1,D,,SVM,Linear kernel,Low,Low,High,Low,Zhang 2020,2020
-rs-fMRI,Graph theory,HO110,t test,LASSO,,403,468,871,ABIDE,k-fold,72.4,71.2,75,D,C,Others,GAT,High,Low,Low,Low,Yang 2021-2,2021
-rs-fMRI,Graph theory,AAL116,Threshold,RFE,,119,116,235,ABIDE,LOOCV,74.9,71.2,78,D,C,Others,-,High,Low,High,Low,Song 2019,2019
-rs-fMRI,Histogram of oriented gradients + Personal characteristics,HO110,MRMR,,,538,573,1111,ABIDE,Split,65,71.3,58.3,D,C,SVM,RBF kernel,High,Low,Low,Low,Ghiassian 2016,2016
-s-MRI,Voxel density,,t test,,,81,50,131,Other,LOOCV,73.3,71.6,76,C,,Ensemble,-,High,Low,High,Unclear,Varol 2012,2012
-rs-fMRI,ROI-based functional connectivity,Multi atlas,None,,,300,300,600,ABIDE,k-fold,72.5,71.7,73.3,C,,Ensemble,CRF + CNN,High,Low,Low,Low,A Ronicko 2020,2020
-rs-fMRI,ROI-based functional connectivity,Multi atlas,SLR,,,36,46,82,ABIDE,k-fold,81.7,71.8,89.5,D,C,SVM,Linear kernel,Unclear,High,High,Low,Huang 2019-1,2019
-DWI/DTI,Fractional anisotropy,,PCA,,,41,32,73,Other,LOOCV,71.9,72,71.8,,,SVM,Linear kernel,Unclear,Low,High,Unclear,Adluru 2009,2009
-rs-fMRI,ROI-based functional connectivity,AAL90,None,,,38,23,61,ABIDE,k-fold,70.4,72.5,67,D,C,AE + Softmax,Stacked SAE,Low,Low,High,Low,Li 2018,2018
-rs-fMRI,Dynamic functional connectivity,AAL116,MTFS,EM,,403,468,871,ABIDE,k-fold,76.8,72.5,79.9,D,C,SVM,Multi kernel,High,Low,Low,Low,Liu 2020-1,2020
-s-MRI,Surface-based morphological features,,RFE,,,100,100,200,ABIDE,Split,72.5,80,67.5,D,C,Ensemble,-,Unclear,Low,Low,Low,Bilgen 2020,2020
-T-MRI,Biopoint task,,None,,,72,43,115,Other,Split,79.8,72.6,85.4,,,GNN,BrainGNN,Unclear,Low,Low,Low,Li 2021,2021
-rs-fMRI,ROI-based functional connectivity,CC200,None,,,505,530,1035,ABIDE,k-fold,71,73,66,D,C,Others,CapsNet,High,Unclear,Low,Low,Jiao 2020,2020
-rs-fMRI,Dynamic functional connectivity,BASC64,MSTEPS,,,403,468,871,ABIDE,k-fold,74.7,73,76.3,D,C,Others,-,High,Low,Low,Low,Bayram 2021,2021
-rs-fMRI,Dynamic functional connectivity,CC200,AE,,,322,352,674,ABIDE,LOOCV,74.7,73,75,D,C,Others,-,High,Low,High,Low,Liu 2021,2021
-s-MRI,Histogram of oriented gradients,,LLFS,,,119,131,250,ABIDE,k-fold,65,73,58,D,C,SVM,Linear kernel,High,Unclear,Low,Low,Chen 2020,2020
-rs-fMRI,ROI-based functional connectivity,DES162,RFE,,,59,59,118,Other,k-fold,79.1,73.3,85,D,,LR,Simple LR,Low,Low,High,Low,Plitt 2015,2015
-rs-fMRI,High-order functional connectivity,AAL116,t test,,,134,160,294,ABIDE,k-fold,68.8,73.6,62.5,D,C,Ensemble,Sparce-MVTC,High,High,Low,Low,Wang 2017,2017
-rs-fMRI,Graph theory,Power150,Graph based,,,42,37,79,ABIDE,LOOCV,63.3,73.8,51.4,,,SVM,Grass kernel,Unclear,High,High,Low,Dodero 2015-1,2015
-DWI/DTI,Fractional anisotropy + Mean diffusivity,,S2n,,,45,30,75,Other,LOOCV,80,74,84,C,,SVM,RBF kernel,High,Low,High,Low,Ingalhalikar 2011,2011
-rs-fMRI,Whole brain intrinsic functional connectivity,Whole brain,None,,,505,530,1035,ABIDE,k-fold,70,74,63,D,C,AE + Softmax,Stacked DAE,High,Low,Low,Low,Heinsfeld 2018,2018
-rs-fMRI,ROI-based functional connectivity,DLA200,SLR,,,100,100,200,ABIDE,k-fold,70.5,74,67,D,C,CNN,Standard,Unclear,High,Low,Low,Zhao 2018-2,2018
-rs-fMRI,ROI-based functional connectivity,CC400,None,,,505,530,1035,ABIDE,k-fold,75.3,74,76.6,D,C,FCNN,-,High,Low,Low,Low,Yang 2020,2020
-rs-fMRI,ROI-based functional connectivity + Personal characteristics,Multi atlas,None,,,408,401,809,ABIDE,k-fold,73.2,74.5,71.7,D,C,Others,DANN,High,High,Low,Low,Niu 2020,2020
-s-MRI,Volume-based morphological features,,LASSO,,,54,57,111,ABIDE,k-fold,75.4,74.6,76,C,,SVM,Linear kernel,High,Low,Low,Low,Wang 2016,2016
-T-MRI,Language task,,LLFS,,,30,30,60,NDAR,,75.8,74.8,76.7,B,,Others,-,Unclear,Low,Unclear,Low,Haweel 2019,2019
-rs-fMRI,Dynamic functional connectivity,AAL116,LLFS,,,423,446,869,ABIDE,k-fold,73.6,75,72,D,C,Ensemble,-,High,Low,Unclear,Low,Dammu 2019,2019
-s-MRI,Histogram of oriented gradients + Personal characteristics,,MRMR,,,538,573,1111,ABIDE,Split,64.1,75.7,51.9,D,C,SVM,RBF kernel,High,Low,Low,Low,Ghiassian 2016,2016
-Facial Recognition,Facial attribute recognition,,Manual,,,49,39,88,Other,LOOCV,72.9,76,69,,,CNN,BottleNeck + TL,High,High,Low,High,Li 2019,2019
-rs-fMRI,Graph theory,Whole brain,Graph based,,,403,468,871,ABIDE,k-fold,73.1,76,69,D,C,Ensemble,-,High,Low,Low,Low,Rakhimberdina 2020,2020
-rs-fMRI,Graph theory,CC200,Graph based,,,505,530,1035,ABIDE,k-fold,74.5,76.2,73.1,D,C,Others,-,High,Low,Low,Low,Yang 2021-2,2021
-rs-fMRI,ROI-based functional connectivity,SBC36,LASSO,,,15,45,60,Other,LOOCV,75,76.7,73.3,D,,LR,Sparse LR,Low,Low,Low,Low,Yamagata 2018,2018
-s-MRI,Curvelet sub-bands,,WT,,,76,75,151,ABIDE,k-fold,77,75,82,C,,SVM,RBF kernel,Low,Low,Low,Low,A Jimenez 2020,2020
-s-MRI,Volume-based morphological features,,RFE,,,22,22,44,Other,LOOCV,77,77.1,76.9,D,,SVM,Linear kernel,Low,Low,Low,Low,Ecker 2010-2,2020
-rs-fMRI,Dynamic functional connectivity,HO110,LLFS,,,539,573,1112,ABIDE,Split,69.8,77.1,60.6,D,C,SVM,Polynomial kernel,High,Low,Low,Low,Savva 2020,2020
-rs-fMRI,Graph theory,6 RSN,Graph based,ICA,,103,192,295,ABIDE,LOOCV,88.7,77.4,100,D,C,SVM,RBF kernel,Low,High,High,Low,Sun 2021,2021
-rs-fMRI,ROI-based functional connectivity,CC400,None,,,505,530,1035,ABIDE,k-fold,70.2,77.5,61.8,D,C,CNN,Standard,High,Low,Low,Low,Sherkatghanad 2019,2019
-rs-fMRI,ROI-based functional connectivity,Self-generated,F score,,,112,128,240,ABIDE,LOOCV,79.2,77.8,80.5,C,,SVM,Linear kernel,High,Low,Low,Low,Chen 2016,2016
-rs-fMRI,ROI-based functional connectivity,RBS,None,,,505,530,1035,ABIDE,Split,76,78,67,D,C,AE + Softmax,Stacked SAE,High,Low,Low,Low,Alrowais 2020,2020
-rs-fMRI,High-order functional connectivity,CC200,LLFS,,,511,561,1072,ABIDE,k-fold,77.3,77.4,77.1,D,C,Others,PTN,High,Low,Low,Low,Liang 2021,2021
-T-MRI,Response to speech,,LLFS,WT,Manual,33,33,66,Other,k-fold,77.2,78.1,76.5,B,,CNN,1D CNN,Low,Low,Low,Low,Haweel 2021-2,2021
-rs-fMRI,Graph theory,HO110,None,,,403,468,871,ABIDE,k-fold,79.5,78.3,81.2,D,C,GNN,GFT + FCNN,High,Low,Low,Low,Shao 2021,2021
-rs-fMRI,Independent components,8 RSN,LLFS,,,79,105,184,ABIDE,k-fold,77.7,78.6,76.9,D,C,CNN,Standard,High,Low,Low,Low,Yang 2021-1,2021
-rs-fMRI,Dynamic functional connectivity,CC200,RFE,,,399,472,871,ABIDE,k-fold,76.6,78.6,74.3,D,C,SVM,Linear kernel,High,Low,Low,Low,Karampasi 2021,2021
-rs-fMRI,Graph theory,HO110,None,,,221,253,474,ABIDE,LOOCV,73.5,78.7,71.5,D,C,GNN,LR-GCN + FCNN,High,Low,High,Low,Zhang 2021-2,2021
-rs-fMRI,Whole brain intrinsic functional connectivity,Whole brain,BOF,,,19,19,38,ABIDE,Split,81,79,83,C,,SVM,Linear kernel,Unclear,Low,Low,Low,Ahammed 2021-2,2021
-rs-fMRI,High-order functional connectivity,AAL116,t test,,,77,105,182,Other,k-fold,72.6,79,64,D,C,Ensemble,Sparce-MVTC,High,Low,Low,Low,Wang 2019-3,2019
-rs-fMRI,Graph theory,Multi atlas,RFE,,,419,530,949,ABIDE,k-fold,75.9,79.2,71.5,D,C,GNN,MT + Ensemble,High,Low,Low,Low,Wang 2022,2022
-rs-fMRI,ROI-based functional connectivity,DK70,t test,RFE,,86,125,211,ABIDE,k-fold,76.3,79.2,63.9,C,,SVM,Linear kernel,Unclear,High,Low,Low,Jung 2019,2019
-rs-fMRI,ROI-based functional connectivity + Personal characteristics + Information theory,CC200,RFE,,,399,472,871,ABIDE,k-fold,72.5,79.2,64.7,D,C,SVM,Linear kernel,High,Low,Low,Low,Karampasi 2020,2020
-rs-fMRI,Dynamic functional connectivity,AAL116,WT,,,41,41,82,ABIDE,Split,85.9,79.3,92.6,,,KNN,-,Unclear,High,Unclear,Low,Al-Hiyali 2021,2021
-EEG,Frequency-domain + Non-linear features,19,t test,,,17,11,28,Other,,78.5,80,71,C,,KNN,-,High,Low,Unclear,Low,Sheikhani 2010,2010
-rs-fMRI,Whole brain intrinsic functional connectivity,Whole brain,AE,,,505,530,1035,ABIDE,k-fold,80,84.1,75.3,D,C,CNN,Standard,High,Low,Low,Low,Sewani 2020,2020
-rs-fMRI,Effective connectivity,AAL116,t test,,,48,30,78,ABIDE,LOOCV,87,80,92,D,C,SVM,RBF kernel,High,Low,Low,Low,Huang 2021,2021
-rs-fMRI,Non-oscillatory connectivity,AAL116,t test,,,36,36,72,ABIDE,k-fold,80,80.1,79.9,D,C,SVM,Polynomial kernel,High,High,High,Low,Sadiq 2022,2022
-rs-fMRI,ROI-based functional connectivity,Multi atlas,L1SCCA,,,74,107,181,Other,LOOCV,85,80,89,D,,LR,Sparse LR,Low,Low,High,Low,Yahata 2016,2016
-s-MRI,Surface-based morphological features,,LASSO,DL,,364,361,725,ABIDE,k-fold,83,80,85,D,C,Ensemble,-,Low,Low,Low,Low,Fu 2021,2021
-s-MRI,Surface-based morphological features + Personal characteristics,,Manual,,,26,24,50,ABIDE,Split,88,80,92.9,,,Ensemble,RF,Unclear,Low,Low,Low,Mishra 2021,2021
-s-MRI,Cortical thickness,,RFE,,,40,36,76,Other,LOOCV,84.2,80,88.9,C,,SVM,RBF kernel,High,Unclear,High,Low,Squrcina 2021,2021
-rs-fMRI,ROI-based functional connectivity,AAL90,Threshold,,,443,435,878,ABIDE,Split,81.1,80.4,81.7,D,C,SVM,Gaussian kernel,High,Low,Low,Low,Mahanand 2016,2016
-rs-fMRI,ROI-based functional connectivity,Multi atlas,None,,,419,530,949,ABIDE,k-fold,74.5,80.7,66.7,D,C,AE + Softmax,Stacked DAE,High,Low,Low,Low,Wang 2020,2020
-Eye Tracking,Virtual reality,,LLFS,,,55,52,107,Other,k-fold,73,81,65.8,D,,Ensemble,-,Low,N/A,Low,Unclear,Lin 2021,2021
-Multimodal,rs-fMRI + sMRI,,F score,AE,,368,449,817,ABIDE,k-fold,85.1,81,89,D,C,FCNN,-,High,Low,Low,Low,Rakic 2020,2020
-Multimodal,rs-fMRI + Genetic,,t test,RFE,,47,24,71,NDAR,LOOCV,86,81,88,D,C,SVM,Multi kernel,Low,Low,Low,Low,Lu 2021,2021
-rs-fMRI,Graph theory,HO110,LLFS,,,416,451,867,ABIDE,Split,76.3,81,71.3,D,C,GNN,ID + FCNN,High,Low,Low,Low,Chen 2021,2021
-s-MRI,Volume-based morphological features,,VBM,,,36,36,72,Other,LOOCV,81,81.1,80.9,D,,Others,PLS,Low,Low,High,Low,Sato 2017,2017
-s-MRI,Structural covariance network,,None,,,518,567,1085,ABIDE,k-fold,71.8,81.3,68.8,D,C,CNN,ResNet,High,Low,Low,Low,Gao 2020,2020
-Other Modalities,Functional near-infrared spectroscopy,,Manual,,,25,22,47,Other,Split,91.9,81.6,94.6,C,,SVM,Linear kernel,High,Low,Low,Low,Li 2016,2016
-rs-fMRI,ROI-based functional connectivity,Self-generated,t test,,,11,48,59,NDAR,LOOCV,96.6,81.8,100,B,A,SVM,Linear kernel,Low,Low,Low,Unclear,Emerson 2017,2017
-rs-fMRI,Dynamic functional connectivity,AAL116,t test,LASSO,,45,47,92,ABIDE,k-fold,83,82,84,C,,SVM,Linear kernel,Low,Low,High,Low,Zhao 2020,2020
-rs-fMRI,High-order functional connectivity,AAL116,LASSO,,,54,46,100,ABIDE,k-fold,81,82,80,C,,SVM,Linear kernel,Low,Low,High,Low,Zhao 2018-1,2018
-T-MRI,Response to speech,,LLFS,WT,,50,50,100,NDAR,k-fold,86,82,92,B,,CNN,2D CNN,Low,Low,Low,Low,Haweel 2021-1,2021
-T-MRI,Biopoint task,,Graph based,,,75,43,118,Other,Split,76,82,68.8,,,GNN,-,Unclear,Low,Low,Unclear,Li 2019,2019
-rs-fMRI,ROI-based functional connectivity,AAL116,LLFS,t test,RFE,45,47,92,ABIDE,LOOCV,79.4,82.2,76.6,C,,SVM,Multi kernel,Low,Low,Low,Low,Huang 2019-2,2019
-s-MRI,Volume-based morphological features + Voxel density,,None,,,30,28,58,ABIDE,k-fold,82,82.4,81.7,D,C,CNN,3D Grad-CAM,Unclear,Low,High,Low,Yang 2021,2021
-T-MRI,Cognitive control task,,Manual,,,29,29,58,Other,LOOCV,82.8,82.9,82.7,,,LR,Simple LR,Unclear,Unclear,Low,High,Wang 2012,2012
-Other Modalities,Kinematic features,,FDR,,,37,45,82,Other,k-fold,93,92,94,B,,Ensemble,RGF,Low,N/A,Low,Low,Anzulewicz 2016,2016
-rs-fMRI,ROI-based functional connectivity,Multi atlas,FFS,,,505,530,1035,ABIDE,k-fold,83.5,83,84,D,C,LR,Simple LR,High,Low,Low,Low,Khan 2020,2020
-rs-fMRI,Whole brain intrinsic functional connectivity,Whole brain,t test,,,40,40,80,Other,LOOCV,79,83,75,D,C,LR,Simple LR,Low,Low,Low,Low,Anderson 2011,2011
-s-MRI,Path signature + Personal characteristics,,None,,,30,30,60,Other,k-fold,87,83,90,A,,FCNN,SFCNN,Low,Low,Low,Low,Zhang 2020,2020
-EEG,Complex networks,10,Graph based,,,30,30,60,Other,LOOCV,81.7,83.3,80,C,B,KNN,-,High,Unclear,High,High,Bajestani 2019,2019
-rs-fMRI,Dynamic functional connectivity,AAL116,HMM,,,121,171,292,ABIDE,k-fold,75.9,83.3,70.6,C,,SVM,Linear kernel,High,Low,Low,Low,19-Jun,2019
-rs-fMRI,ROI-based functional connectivity,AAL116,LASSO,,,539,573,1112,ABIDE,Split,79.6,83.6,75.6,D,C,Ensemble,-,High,High,Low,Low,Dai 2021,2021
-Multimodal,rs-fMRI + sMRI,,None,,,116,69,185,ABIDE,k-fold,65.6,84,33,C,,Others,-,Unclear,Low,Low,Low,Aghdam 2018,2018
-Other Modalities,Vocal analysis,,Manual,,,1355,1257,2612,Other,Split,86.5,84,89.2,C,,Ensemble,RF,Unclear,N/A,Low,Low,Maenner 2016,2016
-T-MRI,Response to speech,,LLFS,WT,,50,50,100,NDAR,k-fold,80,84,76,B,,CNN,2D CNN,Low,Low,Low,Low,Haweel 2021-3,2021
-Eye Tracking,Face-to-face conversations,,FFS,,,20,19,39,Other,LOOCV,92.3,84.2,100,C,,SVM,Linear kernel,Low,N/A,Low,Low,Zhao 2021,2021
-rs-fMRI,ROI-based functional connectivity,AAL116,t test,,,45,47,92,ABIDE,LOOCV,81.5,84.4,78.7,C,,SVM,Linear kernel,High,Low,Low,Low,Li 2017,2017
-s-MRI,Volume-based morphological features,,F score,,,78,104,182,ABIDE,k-fold,90.4,84.4,95.9,D,C,AE + Softmax,Stacked SAE,High,Low,Low,Low,Kong 2019,2019
 DWI/DTI,Fractional anisotropy + Mean diffusivity,,S2n,,,70,79,149,Other,k-fold,78.3,84.8,72.9,C,,SVM,Polynomial kernel,Low,Low,Low,Low,Zhang 2018,2018
-Multimodal,rs-fMRI + sMRI,,LLFS,,,72,113,185,NDAR,k-fold,80.8,84.9,79.2,C,,Ensemble,RF,Low,Low,Low,Low,Dekhil 2019,2019
-Other Modalities,Functional near-infrared spectroscopy,,None,,,25,22,47,Other,Split,92.2,85,99.4,C,,Ensemble,GRU + CNN,High,Low,Low,Low,Xu 2019,2019
-Other Modalities,Kinematic features,,t test,FFS,,20,23,43,Other,LOOCV,88.4,85,91.3,C,,KNN,-,Low,N/A,Low,Low,Zhao 2019,2019
-s-MRI,Normalized image,,DSM,,,171,176,347,Other,Split,84.4,85,84,B,A,CNN,CSResNet-18,Low,Low,Low,Low,Gou 2022,2022
-rs-fMRI,Dynamic functional connectivity,AAL116,HMM,,,47,73,120,ABIDE,k-fold,90.1,85.5,93.2,C,,SVM,Linear kernel,High,Low,High,Low,17-Jun,2017
-EEG,Complex networks,128,Graph based,,,12,12,24,Other,LOOCV,94.7,85.7,100,C,,SVM,Polynomial kernel,Unclear,Low,Low,High,Jamal 2014,2014
-Other Modalities,Kinematic features,,Manual,,,16,16,32,Other,k-fold,86.7,85.7,87.5,D,,SVM,Linear kernel,Low,N/A,High,Low,Li 2017,2017
-rs-fMRI,Dynamic functional connectivity,AAL116,PCA,,,49,41,90,ABIDE,LOOCV,78.9,85.7,70.7,D,C,SVM,Linear kernel,Low,Low,Low,Low,Ma 2021,2021
-EEG,Entropy + Frequency-domain features,16,Manual,,,100,100,200,Other,k-fold,86,85.9,89.7,C,B,SVM,Polynomial kernel,Low,Low,Low,Low,Askari 2018-2,2018
-s-MRI,Volume-based morphological features,,VBM,,,60,60,120,Other,LOOCV,86.7,86.4,86.8,D,,SVM,Linear kernel,Low,Low,High,Low,Gorriz 2019,2019
-Eye Tracking,Saliency maps,,Manual,,,37,37,74,Other,k-fold,85.1,86.5,83.8,B,,SVM,Linear kernel,Low,N/A,Low,Low,Wan 2019,2019
-Facial Recognition,Static facial features,,None,,,1568,1568,3136,Kaggle,Split,87,87.1,86.9,C,B,CNN,MobileNet-V1 + TL,High,High,Low,High,Sadik 2021,2021
-rs-fMRI,Dynamic functional connectivity,TFP-IP,SSFA,,,48,51,99,ABIDE,k-fold,87.5,87,88,C,,KNN,-,High,Low,High,Low,Naghashzadeh 2021,2021
-rs-fMRI,Dynamic functional connectivity,Multi-network,Self-proposed,,,30,30,60,ABIDE,LOOCV,90,87,93,C,,SVM,Multi kernel,Unclear,Low,Low,Low,Price 2014,2014
-s-MRI,Volume-based morphological features,,None,,,74,208,282,Other,k-fold,92,87,93,A,,Ensemble,CNN + SFCNN,Low,Low,Low,Low,Gao 2021,2021
-Multimodal,sMRI + DWI/DTI,,t test,,,16,16,32,Other,LOOCV,86.7,87.3,86.1,C,,SVM,RBF kernel,Low,Low,Low,Low,Goch 2014,2014
-Eye Tracking,Watching videos,,LLFS,,,61,72,133,Other,k-fold,87.5,87.6,87.4,B,,SVM,Linear kernel,High,N/A,Low,Low,Ozdemir 2022,2022
-rs-fMRI,Graph theory,AAL116,Prim algorithm,,,59,46,105,ABIDE,k-fold,86.7,87.5,85.7,D,C,SVM,RBF kernel,Low,High,High,Low,Shi 2020,2020
-rs-fMRI,Whole brain intrinsic functional connectivity,Whole brain,t test,MRMR,LLFS,23,27,50,ABIDE,k-fold,89.7,87.6,92,D,C,Ensemble,-,Unclear,High,High,Low,Zhang 2021-1,2021
-rs-fMRI,Graph theory,AAL116,Graph based,,,45,47,92,Other,k-fold,87.7,87.8,87.6,C,,SVM,Linear kernel,High,High,High,Low,Zu 2019,2019
-rs-fMRI,Dynamic functional connectivity,CC200,RFE,,,45,47,92,Other,k-fold,87.7,87.8,87.6,C,,SVM,Linear kernel,High,Low,High,Low,Zu 2019,2019
-s-MRI,Surface-based morphological features + Volume-based morphological features + Cortical thickness,,LLFS,,,34,145,179,NDAR,k-fold,93.8,88,95,B,A,SVM,Linear kernel,Low,Low,Low,Low,Hazlett 2017,2017
-rs-fMRI,Dynamic functional connectivity,Whole brain,None,,,42,42,84,ABIDE,k-fold,88.1,89.3,83.3,C,,AE + Softmax,SAE,High,High,High,Low,Xiao 2018,2018
-Facial Recognition,Static facial features,,None,,,1468,1468,2936,Kaggle,Split,90,88.5,91.7,C,B,CNN,Xception + TL,High,High,Low,High,Rahman 2022,2022
-EEG,Frequency-domain features,-,LLFS,,,8,10,18,Other,k-fold,88.9,89,88.8,C,,Others,-,Unclear,Unclear,High,High,Alsaggaf 2014,2014
-Other Modalities,Kinematic features,,t test,FFS,,18,20,38,Other,LOOCV,92.1,88.9,95,C,,Others,-,Unclear,N/A,Low,Low,Zhao 2021,2021
-rs-fMRI,ROI-based functional connectivity,Power150,LLFS,,,126,126,252,ABIDE,Split,90.8,89,93,D,C,Ensemble,RF,Low,Low,Low,Low,Chen 2015,2015
-rs-fMRI,Independent components,Whole brain,ICA,,,392,407,799,ABIDE,,89.5,89.3,89.7,D,C,Ensemble,-,High,Low,Unclear,Low,Syed 2017,2017
-rs-fMRI,ROI-based functional connectivity,RBS,AE,,,155,148,303,ABIDE,k-fold,91.1,89.9,92,C,,Others,-,High,Low,Low,Low,Mahmoud 2021,2021
-EEG,Entropy + Frequency-domain features,19,LLFS,,,10,18,28,Other,LOOCV,96,90,100,,,SVM,RBF kernel,Unclear,Low,Low,High,Salehi 2021,2021
-s-MRI,Cortical thickness,,RFE,,,20,20,40,Other,LOOCV,90,90.1,89.9,D,,SVM,Linear kernel,High,Low,Low,Low,Ecker 2010-1,2010
-EEG,Event-related potentials,19,ICA,,,41,32,73,Other,,90.4,90.5,89.8,C,,SVM,Linear kernel,Low,Low,Unclear,Unclear,Subudhi 2020,2020
-rs-fMRI,ROI-based functional connectivity,Clements35,RFE,,,255,276,531,ABIDE,k-fold,90.6,90.7,90.5,D,C,SVM,Linear kernel,High,Low,Low,Low,Wang 2019-2,2019
-Facial Recognition,Static facial features,,None,,,1468,1468,2936,Kaggle,Split,90.7,90.8,90.6,C,B,CNN,MobileNet-V1 + TL,High,High,Low,High,Akter 2021,2021
-EEG,Frequency-domain features,22,None,,,10,10,20,Other,k-fold,91,81.9,100,,,CNN,ResNet-50,Unclear,Low,High,High,Radhakrishnan 2021,2021
-Eye Tracking,Virtual reality,,RFE,,,35,20,55,Other,k-fold,86,91,82,B,,SVM,Linear kernel,Unclear,N/A,High,Low,Alcaniz 2022,2022
-Other Modalities,PET scan,,RFE,,,45,13,58,Other,LOOCV,88,91,77,C,,Others,-,Low,Low,Low,Low,Duchesnay 2011,2011
-rs-fMRI,ROI-based functional connectivity,Multi atlas,SLR,,,159,197,356,ABIDE,k-fold,89.1,91,87.7,D,C,Ensemble,-,Unclear,Low,Low,Low,Huang 2020,2020
-rs-fMRI,ROI-based functional connectivity,AAL90,SMF,t test,,5050,530,5580,ABIDE,Split,88,91.5,86.5,D,C,SVM,Linear kernel,High,Low,High,Low,Subbaraju 2018,2018
+DWI/DTI,Fiber density + Fiber bundle cross-section,,t test,LASSO,RFE,26,26,52,NDAR,k-fold,73.1,71.1,75.1,D,,SVM,Linear kernel,Low,Low,High,Low,Zhang 2020,2020
+DWI/DTI,Fractional anisotropy + Mean diffusivity + Axial diffusivity + Radial diffusivity + Skewness,,S2n,,,124,139,263,NDAR,LOOCV,73,70,76,C,,SVM,Linear kernel,High,Low,High,Low,Elnakieb 2020,2020
+DWI/DTI,Fractional anisotropy + Mean diffusivity,,S2n,,,45,30,75,Other,LOOCV,80,74,84,C,,SVM,RBF kernel,High,Low,High,Low,Ingalhalikar 2011,2011
 DWI/DTI,Fractional anisotropy + Mean diffusivity + Axial diffusivity + Radial diffusivity + Skewness,,None,,,30,30,60,Other,Split,94.7,91.7,100,D,C,Others,-,Low,Low,Low,Low,Lange 2010,2010
-rs-fMRI,Wavelet-based dynamics features,7 RSN,ICA,DR,,24,30,54,Other,LOOCV,86.7,91.7,83.3,C,,SVM,Polynomial kernel,Unclear,Low,Low,Low,Bernas 2018,2018
-Other Modalities,Video analysis,,LLFS,,,9,124,133,Other,Split,82,92,71,B,A,FCNN,-,Unclear,N/A,Low,Low,Wu 2021,2021
-s-MRI,Volume-based morphological features,,Manual,,,120,136,256,ABIDE,Split,73,92,68,D,,SVM,Linear kernel,Unclear,Low,Low,Low,Denier 2022,2022
-rs-fMRI,ROI-based functional connectivity,AAL90,Threshold,,,312,328,640,ABIDE,k-fold,90.3,92.3,88.4,C,,Others,PNN,High,Low,Low,Low,Iidaka 2015,2015
-T-MRI,Dynamic bodies attention task,,RFE,,,15,14,29,Other,LOOCV,92.3,92.4,92.2,D,,SVM,Linear kernel,Low,Low,Low,Low,Chanel 2016,2016
-rs-fMRI,Whole brain intrinsic functional connectivity,Whole brain,None,,,79,105,184,ABIDE,,94.7,92.5,96.2,D,C,CNN,DarkNet-19,High,Low,Unclear,Low,Ahammed 2021-1,2021
-Eye Tracking,Watching websites,,t test,RFE,,15,15,30,Other,Split,91.6,92.9,90,D,,Others,-,Low,N/A,Low,Low,Khalaji 2021,2021
-Eye Tracking,Observing images,,F score,,,20,19,39,Other,LOOCV,92.5,93,92,D,,Ensemble,CNN + SVM,Low,N/A,Low,Low,Jiang 2017,2017
-Multimodal,sMRI + DWI/DTI,,RFE,,,58,48,106,Other,k-fold,88.8,93,83.8,B,,Ensemble,RF,Low,Low,Low,Low,Kim 2022,2022
-rs-fMRI,Power spectral density,Whole brain,AE,,,123,160,283,NDAR,LOOCV,92,93,89,C,,SVM,RBF kernel,Low,High,High,Low,Dekhil 2018,2018
-Eye Tracking,Watching faces,,LLFS,,,29,48,77,Other,LOOCV,88.5,93.1,86.2,C,B,SVM,RBF kernel,Unclear,N/A,High,High,Liu 2016,2016
-Facial Recognition,Static facial features,,None,,,1269,1269,2538,Kaggle,Split,91.5,93.4,89.7,C,B,CNN,DenseNet,High,High,Low,High,Sandeep 2021,2021
-Multimodal,sMRI + DWI/DTI,,PCA,,,110,83,193,NDAR,k-fold,93.6,93.3,96.2,C,,SVM,RBF kernel,Low,Low,Low,Low,Irimia 2018,2018
-rs-fMRI,ROI-based functional connectivity,AAL116,SSAE,RFE,,501,553,1054,ABIDE,k-fold,94.9,94,95.6,D,C,LR,Simple LR,High,Low,Low,Low,Wang 2019-1,2019
 EEG,Non-linear features,2,MI,,,34,27,61,Other,k-fold,82,94.1,66.7,C,B,SVM,RBF kernel,Unclear,High,Low,High,Ghoreishi 2021,2021
-Other Modalities,Video analysis,,Manual,,,149,79,228,Other,Split,88.9,94.5,77.4,B,,LR,Simple LR,High,N/A,Low,Unclear,Tariq 2018,2018
-rs-fMRI,ROI-based functional connectivity,AAL116,None,,,505,530,1035,ABIDE,Split,74,94.9,69.9,D,C,CNN,ResNet-18 + FCNN,High,Low,Low,Low,Tang 2020,2020
-EEG,Entropy + Non-linear features,19,RFE,,,21,102,123,Other,LOOCV,90.2,95,89,B,A,SVM,RBF kernel,Low,Low,High,Low,Bosl 2018,2018
-Facial Recognition,Static facial features,,None,,,556,556,1112,Other,Split,95,95.1,94.9,C,B,CNN,VGG-16 + TL,High,High,Low,Unclear,Lu 2021,2021
-Multimodal,EEG + Eye tracking,,None,,,21,21,42,Other,Split,95,95.1,94.9,B,,GNN,GFT + FCNN,Low,Low,Low,Unclear,Zhang 2021,2021
-s-MRI,Volume-based morphological features + Cortical thickness,,t test,MRMR,RFE,58,59,117,NDAR,k-fold,96.3,95,97,C,,SVM,Multi kernel,Low,Unclear,Low,Low,Wee 2014,2014
-s-MRI,Cortical thickness,,None,,,22,16,38,Other,k-fold,87,95,75,C,,Others,-,Low,Low,High,Low,Jiao 2010,2010
-s-MRI,Surface-based morphological features + Cortical thickness,,Elastic net,LASSO,,100,100,200,ABIDE,Split,96.3,95.5,97,C,,Others,-,Low,Low,Low,Low,Pua 2019,2019
-EEG,Entropy + Frequency-domain + Time-domain + Non-linear features,-,None,,,48,50,98,Other,Split,96,97.9,95.8,C,B,Others,-,Unclear,Unclear,Low,High,Satheesh Kumar 2018,2018
-Multimodal,T-fMRI + DWI/DTI + Personal characteristics,,t test,LLSF,RFE,15,15,30,Other,Split,95.9,96.9,94.8,D,C,SVM,Linear kernel,Unclear,Low,Low,Low,Deshpande 2013,2013
-rs-fMRI,Graph theory,AAL116,SSFA,,,28,19,47,ABIDE,k-fold,95,97,91,,,SVM,Gaussian kernel,High,Low,High,Low,Kazeminejad 2018,2018
-EEG,Frequency-domain features,16,PCA,,,12,4,16,Other,k-fold,95.2,97.1,90.9,D,C,SVM,Linear kernel,High,Low,High,Unclear,Tawhid 2020,2020
-Other Modalities,Functional near-infrared spectroscopy,,None,,,22,22,44,Other,Split,95.7,97.1,94.3,C,,Ensemble,LSTM + CNN,High,Low,Low,Low,Xu 2020,2020
-EEG,Frequency-domain features,64,LLFS,,,61,61,122,Other,k-fold,96.4,97.8,93.2,C,B,SVM,Polynomial kernel,Low,Low,Low,Low,Baygin 2021,2021
-Multimodal,rs-fMRI + sMRI + DWI/DTI,,LLFS,,,46,47,93,Other,Split,92.5,97.8,87.2,C,,Ensemble,CRF,Low,Low,Low,Low,Eill 2019,2019
-EEG,Frequency-domain features,32,None,,,8,9,17,Other,k-fold,98.3,98.4,98.2,C,B,Ensemble,RF,High,Low,High,Low,Jayawardana 2019,2019
-Multimodal,rs-fMRI + sMRI,,Manual,,,27,24,51,ABIDE,Split,97.8,98,97.6,C,,CNN,TPNAS-Net,Low,Low,Low,Low,Liu 2022,2022
-rs-fMRI,Power spectral density,Whole brain,None,,,117,81,198,ABIDE,LOOCV,96.2,98,93.6,C,,AE + Softmax,SAE,High,Low,High,Low,Xiao 2019,2019
-s-MRI,Surface-based morphological features,,LLFS,PCA,,50,150,200,ABIDE,k-fold,75,98.6,40,D,,SVM,Linear kernel,Low,Low,Low,Low,Graa 2019,2019
-s-MRI,Normalized image,,None,,,112,102,214,ABIDE,k-fold,99,99.1,98.9,D,,Ensemble,CNN + SFCNN,Low,Low,Low,Low,Tummala 2021,2021
-EEG,Entropy + Frequency-domain features,14,Manual,,,89,94,183,Other,k-fold,99.7,99.9,95.9,C,B,SVM,Polynomial kernel,Low,Low,Low,Low,Askari 2018-1,2018
-EEG,Frequency-domain features,64,PCA,,,60,60,120,Other,,94.4,100,88.9,C,B,FCNN,-,Unclear,Low,Unclear,Unclear,Abdulhay 2018,2018
-EEG,Entropy + Frequency-domain features,64,t test,,,40,37,77,Other,k-fold,98.7,100,97.3,C,B,Others,-,Low,Low,Low,Low,Pham 2020,2020
-EEG,Entropy + Non-linear features,19,RFE,,,18,23,41,Other,k-fold,97,100,94,C,B,SVM,Linear kernel,High,Low,High,Low,Bosl 2017,2017
+EEG,Frequency-domain + Non-linear features,19,t test,,,17,11,28,Other,,78.5,80,71,C,,KNN,-,High,Low,Unclear,Low,Sheikhani 2010,2010
+EEG,Complex networks,10,Graph based,,,30,30,60,Other,LOOCV,81.7,83.3,80,C,B,KNN,-,High,Unclear,High,High,Bajestani 2019,2019
 EEG,Entropy + Non-linear features,17,PCA,,,7,7,14,Other,LOOCV,92.9,100,85.7,C,B,SVM,RBF kernel,High,Low,Low,Low,Heunis 2018,2018
+EEG,Event-related potentials,128,Manual,,,19,30,49,Other,LOOCV,79,68,87,C,,Others,-,High,Low,Low,Low,Eldridge 2014,2014
+EEG,Frequency-domain features,64,PCA,,,60,60,120,Other,,94.4,100,88.9,C,B,FCNN,-,Unclear,Low,Unclear,Unclear,Abdulhay 2018,2018
+EEG,Entropy + Non-linear features,19,RFE,,,21,102,123,Other,LOOCV,90.2,95,89,B,A,SVM,RBF kernel,Low,Low,High,Low,Bosl 2018,2018
+EEG,Entropy + Frequency-domain features,16,Manual,,,100,100,200,Other,k-fold,86,85.9,89.7,C,B,SVM,Polynomial kernel,Low,Low,Low,Low,Askari 2018-2,2018
+EEG,Frequency-domain features,16,PCA,,,12,4,16,Other,k-fold,95.2,97.1,90.9,D,C,SVM,Linear kernel,High,Low,High,Unclear,Tawhid 2020,2020
+EEG,Frequency-domain features,64,LLFS,,,61,61,122,Other,k-fold,96.4,97.8,93.2,C,B,SVM,Polynomial kernel,Low,Low,Low,Low,Baygin 2021,2021
+EEG,Entropy + Non-linear features,19,RFE,,,18,23,41,Other,k-fold,97,100,94,C,B,SVM,Linear kernel,High,Low,High,Low,Bosl 2017,2017
+EEG,Entropy + Frequency-domain features,14,Manual,,,89,94,183,Other,k-fold,99.7,99.9,95.9,C,B,SVM,Polynomial kernel,Low,Low,Low,Low,Askari 2018-1,2018
+EEG,Entropy + Frequency-domain features,64,t test,,,40,37,77,Other,k-fold,98.7,100,97.3,C,B,Others,-,Low,Low,Low,Low,Pham 2020,2020
+EEG,Event-related potentials,128,GA,,,19,112,131,Other,Split,70,40,100,B,A,SVM,Linear kernel,High,Low,Low,Low,Gui 2021,2021
+EEG,Complex networks,128,Graph based,,,12,12,24,Other,LOOCV,94.7,85.7,100,C,,SVM,Polynomial kernel,Unclear,Low,Low,High,Jamal 2014,2014
+EEG,Entropy + Frequency-domain features,19,LLFS,,,10,18,28,Other,LOOCV,96,90,100,,,SVM,RBF kernel,Unclear,Low,Low,High,Salehi 2021,2021
+Eye Tracking,Observing images,,LLFS,,,14,14,28,Other,Split,59.3,68.4,50.6,C,,Others,-,Low,N/A,Low,Low,Arru 2019,2019
+Eye Tracking,Saliency maps,,None,,,14,14,28,Other,Split,62.1,71,54,C,,CNN,ResNet-50,Unclear,N/A,Low,Unclear,Liaqat 2021,2021
+Eye Tracking,Virtual reality,,LLFS,,,55,52,107,Other,k-fold,73,81,65.8,D,,Ensemble,-,Low,N/A,Low,Unclear,Lin 2021,2021
+Eye Tracking,Watching videos,,Manual,,,17,15,32,Other,Split,83.4,100,66.6,C,,Others,-,Unclear,N/A,Low,Unclear,Carette 2018,2018
+Eye Tracking,Virtual reality,,RFE,,,35,20,55,Other,k-fold,86,91,82,B,,SVM,Linear kernel,Unclear,N/A,High,Low,Alcaniz 2022,2022
+Eye Tracking,Saliency maps,,Manual,,,37,37,74,Other,k-fold,85.1,86.5,83.8,B,,SVM,Linear kernel,Low,N/A,Low,Low,Wan 2019,2019
+Eye Tracking,Watching faces,,LLFS,,,29,48,77,Other,LOOCV,88.5,93.1,86.2,C,B,SVM,RBF kernel,Unclear,N/A,High,High,Liu 2016,2016
+Eye Tracking,Watching websites,,t test,RFE,,15,15,30,Other,Split,91.6,92.9,90,D,,Others,-,Low,N/A,Low,Low,Khalaji 2021,2021
+Eye Tracking,Interactions with parents,,Manual,,,6,26,32,Other,LOOCV,93.8,100,92.3,A,,Others,-,Unclear,N/A,Low,Unclear,Alie 2011,2011
+Eye Tracking,Watching videos,,GA,,,76,30,106,Other,k-fold,82,69,93,C,B,FCNN,-,Unclear,N/A,Low,Low,Oliviera 2021,2021
 Eye Tracking,Saliency maps,,None,,,20,19,39,Other,LOOCV,99,100,98,,,Ensemble,CNN + LSTM,Unclear,N/A,Low,Unclear,Chen 2019,2019
 Eye Tracking,Saliency maps,,None,,,14,14,28,Other,LOOCV,99.8,100,99.7,,,Ensemble,XGBoost,Unclear,N/A,Low,Unclear,Rahman 2021,2021
-Eye Tracking,Watching videos,,Manual,,,17,15,32,Other,Split,83.4,100,66.6,C,,Others,-,Unclear,N/A,Low,Unclear,Carette 2018,2018
-Eye Tracking,Interactions with parents,,Manual,,,6,26,32,Other,LOOCV,93.8,100,92.3,A,,Others,-,Unclear,N/A,Low,Unclear,Alie 2011,2011
+Eye Tracking,Face-to-face conversations,,FFS,,,20,19,39,Other,LOOCV,92.3,84.2,100,C,,SVM,Linear kernel,Low,N/A,Low,Low,Zhao 2021,2021
+Facial Recognition,Facial attribute recognition,,Manual,,,49,39,88,Other,LOOCV,72.9,76,69,,,CNN,BottleNeck + TL,High,High,Low,High,Li 2019,2019
+Facial Recognition,Static facial features,,None,,,1269,1269,2538,Kaggle,Split,91.5,93.4,89.7,C,B,CNN,DenseNet,High,High,Low,High,Sandeep 2021,2021
+Facial Recognition,Static facial features,,None,,,1468,1468,2936,Kaggle,Split,90,88.5,91.7,C,B,CNN,Xception + TL,High,High,Low,High,Rahman 2022,2022
+Multimodal,rs-fMRI + sMRI,,None,,,116,69,185,ABIDE,k-fold,65.6,84,33,C,,Others,-,Unclear,Low,Low,Low,Aghdam 2018,2018
+Multimodal,rs-fMRI + sMRI,,AE,LLFS,PCA,538,573,1111,ABIDE,Split,64.3,60,68.3,D,C,SVM,Multi kernel,High,Low,Low,Low,Sen 2018,2018
+Multimodal,rs-fMRI + DWI/DTI,,Graph based,,,403,468,871,ABIDE,Split,60.9,53.5,69.4,D,C,SVM,RBF kernel,High,Low,Low,Low,Brahim 2020,2020
+Multimodal,rs-fMRI + sMRI,,None,,,481,526,1007,ABIDE,k-fold,72.7,67.8,76.6,D,C,GNN,ANE + FCNN,High,Low,Low,Low,Chen 2021,2021
+Multimodal,rs-fMRI + sMRI,,LLFS,,,72,113,185,NDAR,k-fold,80.8,84.9,79.2,C,,Ensemble,RF,Low,Low,Low,Low,Dekhil 2019,2019
+Multimodal,sMRI + DWI/DTI,,RFE,,,58,48,106,Other,k-fold,88.8,93,83.8,B,,Ensemble,RF,Low,Low,Low,Low,Kim 2022,2022
+Multimodal,sMRI + DWI/DTI,,t test,,,16,16,32,Other,LOOCV,86.7,87.3,86.1,C,,SVM,RBF kernel,Low,Low,Low,Low,Goch 2014,2014
+Multimodal,rs-fMRI + sMRI + DWI/DTI,,LLFS,,,46,47,93,Other,Split,92.5,97.8,87.2,C,,Ensemble,CRF,Low,Low,Low,Low,Eill 2019,2019
+Multimodal,rs-fMRI + Genetic,,t test,RFE,,47,24,71,NDAR,LOOCV,86,81,88,D,C,SVM,Multi kernel,Low,Low,Low,Low,Lu 2021,2021
+Multimodal,rs-fMRI + sMRI,,F score,AE,,368,449,817,ABIDE,k-fold,85.1,81,89,D,C,FCNN,-,High,Low,Low,Low,Rakic 2020,2020
+Multimodal,T-fMRI + DWI/DTI + Personal characteristics,,t test,LLSF,RFE,15,15,30,Other,Split,95.9,96.9,94.8,D,C,SVM,Linear kernel,Unclear,Low,Low,Low,Deshpande 2013,2013
+Multimodal,sMRI + DWI/DTI,,VBM,,,14,33,47,Other,Split,75.3,24.8,97,C,,Ensemble,RF,Low,Low,Low,Low,Payabvash 2019,2019
+Multimodal,rs-fMRI + sMRI,,Manual,,,27,24,51,ABIDE,Split,97.8,98,97.6,C,,CNN,TPNAS-Net,Low,Low,Low,Low,Liu 2022,2022
+Multimodal,Kinematic + Eye tracking,,t test,LLFS,,22,22,44,Other,Split,78,57,99,D,,SVM,RBF kernel,Low,N/A,Low,High,Vabalas 2020,2020
+Other Modalities,Video analysis,,LLFS,,,9,124,133,Other,Split,82,92,71,B,A,FCNN,-,Unclear,N/A,Low,Low,Wu 2021,2021
+Other Modalities,PET scan,,RFE,,,45,13,58,Other,LOOCV,88,91,77,C,,Others,-,Low,Low,Low,Low,Duchesnay 2011,2011
+Other Modalities,Video analysis,,Manual,,,149,79,228,Other,Split,88.9,94.5,77.4,B,,LR,Simple LR,High,N/A,Low,Unclear,Tariq 2018,2018
+Other Modalities,Kinematic features,,Manual,,,16,16,32,Other,k-fold,86.7,85.7,87.5,D,,SVM,Linear kernel,Low,N/A,High,Low,Li 2017,2017
+Other Modalities,Vocal analysis,,Manual,,,1355,1257,2612,Other,Split,86.5,84,89.2,C,,Ensemble,RF,Unclear,N/A,Low,Low,Maenner 2016,2016
+Other Modalities,Kinematic features,,t test,FFS,,20,23,43,Other,LOOCV,88.4,85,91.3,C,,KNN,-,Low,N/A,Low,Low,Zhao 2019,2019
 Other Modalities,Response to name,,PCA,,,22,21,43,Other,Split,93,100,92.3,B,,Others,-,Low,N/A,Low,Low,Liu 2017,2017
 Other Modalities,Kinematic features,,Manual,,,15,15,30,Other,LOOCV,96.7,100,93.8,B,,SVM,Linear kernel,Low,N/A,Low,Low,Crippa 2015,2015
+Other Modalities,Functional near-infrared spectroscopy,,None,,,22,22,44,Other,Split,95.7,97.1,94.3,C,,Ensemble,LSTM + CNN,High,Low,Low,Low,Xu 2020,2020
+Other Modalities,Functional near-infrared spectroscopy,,Manual,,,25,22,47,Other,Split,91.9,81.6,94.6,C,,SVM,Linear kernel,High,Low,Low,Low,Li 2016,2016
+Other Modalities,Kinematic features,,t test,FFS,,18,20,38,Other,LOOCV,92.1,88.9,95,C,,Others,-,Unclear,N/A,Low,Low,Zhao 2021,2021
+Other Modalities,Functional near-infrared spectroscopy,,None,,,25,22,47,Other,Split,92.2,85,99.4,C,,Ensemble,GRU + CNN,High,Low,Low,Low,Xu 2019,2019
+rs-fMRI,Graph theory,Power150,Graph based,,,42,37,79,ABIDE,LOOCV,63.3,73.8,51.4,,,SVM,Grass kernel,Unclear,High,High,Low,Dodero 2015-1,2015
+rs-fMRI,Dynamic functional connectivity,AAL116,BS,,,25,25,50,Other,Split,53,50,55,C,,Others,-,High,Low,Low,Low,Schirmer 2021,2021
+rs-fMRI,Graph theory,CC200,Graph based,,,493,530,1023,ABIDE,k-fold,59.2,61.4,57.4,D,C,FCNN,-,High,Low,Low,Low,Kazeminejad 2020,2020
+rs-fMRI,Whole brain intrinsic functional connectivity,Whole brain,t test,,,447,517,964,ABIDE,LOOCV,60,62,58,D,C,LR,Simple LR,High,Low,High,Low,Nielsen 2013,2013
+rs-fMRI,Histogram of oriented gradients + Personal characteristics,HO110,MRMR,,,538,573,1111,ABIDE,Split,65,71.3,58.3,D,C,SVM,RBF kernel,High,Low,Low,Low,Ghiassian 2016,2016
+rs-fMRI,Dynamic functional connectivity,CC200,Manual,,,147,146,293,ABIDE,k-fold,61.1,61.8,60,D,C,SVM,Linear kernel,Unclear,Low,Unclear,Low,Tejwani 2017,2017
+rs-fMRI,Dynamic functional connectivity,HO110,LLFS,,,539,573,1112,ABIDE,Split,69.8,77.1,60.6,D,C,SVM,Polynomial kernel,High,Low,Low,Low,Savva 2020,2020
+rs-fMRI,Normalized image,EPI images,None,,,74,98,172,ABIDE,Split,57.8,57.2,61.3,D,C,CNN,InceptionResNet V2,High,Low,Low,Low,Dominic 2021,2021
+rs-fMRI,ROI-based functional connectivity,CC400,None,,,505,530,1035,ABIDE,k-fold,70.2,77.5,61.8,D,C,CNN,Standard,High,Low,Low,Low,Sherkatghanad 2019,2019
+rs-fMRI,High-order functional connectivity,AAL116,t test,,,134,160,294,ABIDE,k-fold,68.8,73.6,62.5,D,C,Ensemble,Sparce-MVTC,High,High,Low,Low,Wang 2017,2017
+rs-fMRI,Whole brain intrinsic functional connectivity,Whole brain,None,,,505,530,1035,ABIDE,k-fold,70,74,63,D,C,AE + Softmax,Stacked DAE,High,Low,Low,Low,Heinsfeld 2018,2018
+rs-fMRI,Graph theory,Whole brain,Graph based,LLFS,,42,37,79,ABIDE,LOOCV,67,70,63.9,C,,Ensemble,-,Unclear,Low,High,Low,Tolan 2018,2018
+rs-fMRI,ROI-based functional connectivity,DK70,t test,RFE,,86,125,211,ABIDE,k-fold,76.3,79.2,63.9,C,,SVM,Linear kernel,Unclear,High,Low,Low,Jung 2019,2019
+rs-fMRI,ROI-based functional connectivity,CC200,Threshold,,,77,77,154,ABIDE,k-fold,63,62,64,D,,SVM,Linear kernel,Low,Low,Low,Low,Kassraian-Fard 2016,2016
+rs-fMRI,High-order functional connectivity,AAL116,t test,,,77,105,182,Other,k-fold,72.6,79,64,D,C,Ensemble,Sparce-MVTC,High,Low,Low,Low,Wang 2019-3,2019
+rs-fMRI,Graph theory,Multi atlas,None,,,485,544,1029,ABIDE,Split,67.3,70.4,64.2,D,C,GNN,MT + KNN,High,Low,Low,Low,Yao 2019,2019
+rs-fMRI,ROI-based functional connectivity,DOS160,SDAE,,,457,483,940,ABIDE,k-fold,64,63.8,64.4,D,C,SVM,RBF kernel,High,High,Low,Low,Xu 2021,2021
+rs-fMRI,ROI-based functional connectivity + Personal characteristics + Information theory,CC200,RFE,,,399,472,871,ABIDE,k-fold,72.5,79.2,64.7,D,C,SVM,Linear kernel,High,Low,Low,Low,Karampasi 2020,2020
+rs-fMRI,ROI-based functional connectivity,HO110,None,,,306,350,656,ABIDE,Split,62.5,60,65,D,C,Ensemble,CRF,High,Low,Low,Low,Fredo 2019,2019
+rs-fMRI,ROI-based functional connectivity,CC200,None,,,505,530,1035,ABIDE,k-fold,71,73,66,D,C,Others,CapsNet,High,Unclear,Low,Low,Jiao 2020,2020
+rs-fMRI,ROI-based functional connectivity,AAL116,SLR,,,250,218,468,ABIDE,k-fold,69.1,70.2,66.4,D,C,KNN,-,High,Low,Low,Low,Wang 2018,2018
+rs-fMRI,ROI-based functional connectivity,Multi atlas,None,,,419,530,949,ABIDE,k-fold,74.5,80.7,66.7,D,C,AE + Softmax,Stacked DAE,High,Low,Low,Low,Wang 2020,2020
+rs-fMRI,ROI-based functional connectivity,AAL90,None,,,38,23,61,ABIDE,k-fold,70.4,72.5,67,D,C,AE + Softmax,Stacked SAE,Low,Low,High,Low,Li 2018,2018
+rs-fMRI,ROI-based functional connectivity,DLA200,SLR,,,100,100,200,ABIDE,k-fold,70.5,74,67,D,C,CNN,Standard,Unclear,High,Low,Low,Zhao 2018-2,2018
+rs-fMRI,ROI-based functional connectivity,RBS,None,,,505,530,1035,ABIDE,Split,76,78,67,D,C,AE + Softmax,Stacked SAE,High,Low,Low,Low,Alrowais 2020,2020
+rs-fMRI,ROI-based functional connectivity + Amplitude of low-frequency fluctuation,AAL90,None,,,99,85,184,ABIDE,k-fold,68.5,69.5,67.6,D,C,CNN,Standard,High,Low,Low,Low,You 2020,2020
+rs-fMRI,Graph theory,AAL90,EW,,,474,539,1013,ABIDE,k-fold,68.7,69.2,68.3,D,C,CNN,Self-proposed,High,Low,Low,Low,Brown 2018,2018
+rs-fMRI,Graph theory,AAL116,None,,,402,464,866,ABIDE,k-fold,67.2,65.9,68.4,D,C,GNN,hi-GCN + RBF-SVM,High,Low,Low,Low,Jiang 2020,2020
+rs-fMRI,ROI-based functional connectivity,CC200,Extra tree,,,506,548,1054,ABIDE,k-fold,67.7,66.3,68.9,D,C,SVM,Linear kernel,High,Low,Low,Low,Liu 2020-2,2020
+rs-fMRI,Graph theory,Whole brain,Graph based,,,403,468,871,ABIDE,k-fold,73.1,76,69,D,C,Ensemble,-,High,Low,Low,Low,Rakhimberdina 2020,2020
+rs-fMRI,ROI-based functional connectivity,AAL116,None,,,505,530,1035,ABIDE,Split,74,94.9,69.9,D,C,CNN,ResNet-18 + FCNN,High,Low,Low,Low,Tang 2020,2020
+rs-fMRI,ROI-based functional connectivity,AAL90,EW,,,527,569,1096,ABIDE,k-fold,66.9,66.4,70.4,D,C,CNN,Self-proposed,High,High,Low,Low,Xing 2018,2018
+rs-fMRI,Dynamic functional connectivity,AAL116,HMM,,,121,171,292,ABIDE,k-fold,75.9,83.3,70.6,C,,SVM,Linear kernel,High,Low,Low,Low,19-Jun,2019
+rs-fMRI,Dynamic functional connectivity,AAL116,PCA,,,49,41,90,ABIDE,LOOCV,78.9,85.7,70.7,D,C,SVM,Linear kernel,Low,Low,Low,Low,Ma 2021,2021
+rs-fMRI,Graph theory,HO110,LLFS,,,416,451,867,ABIDE,Split,76.3,81,71.3,D,C,GNN,ID + FCNN,High,Low,Low,Low,Chen 2021,2021
+rs-fMRI,Graph theory,HO110,None,,,221,253,474,ABIDE,LOOCV,73.5,78.7,71.5,D,C,GNN,LR-GCN + FCNN,High,Low,High,Low,Zhang 2021-2,2021
+rs-fMRI,Graph theory,Multi atlas,RFE,,,419,530,949,ABIDE,k-fold,75.9,79.2,71.5,D,C,GNN,MT + Ensemble,High,Low,Low,Low,Wang 2022,2022
+rs-fMRI,ROI-based functional connectivity + Personal characteristics,Multi atlas,None,,,408,401,809,ABIDE,k-fold,73.2,74.5,71.7,D,C,Others,DANN,High,High,Low,Low,Niu 2020,2020
+rs-fMRI,Dynamic functional connectivity,AAL116,LLFS,,,423,446,869,ABIDE,k-fold,73.6,75,72,D,C,Ensemble,-,High,Low,Unclear,Low,Dammu 2019,2019
+rs-fMRI,ROI-based functional connectivity,CC200,None,,,505,530,1035,ABIDE,k-fold,70.3,68.3,72.2,D,C,AE + Softmax,-,High,Low,Low,Low,Eslami 2019,2019
+rs-fMRI,ROI-based functional connectivity,DLA39,MSDL,,,403,468,871,ABIDE,LOOCV,67,61,72.3,D,C,SVM,Linear kernel,High,Low,High,Low,Abraham 2017,2017
+rs-fMRI,ROI-based functional connectivity,CC400,None,,,505,530,1035,ABIDE,k-fold,72,70.9,73,D,C,LR,Ridge LR,High,Low,Low,Low,Yang 2019,2019
+rs-fMRI,Graph theory,CC200,Graph based,,,505,530,1035,ABIDE,k-fold,74.5,76.2,73.1,D,C,Others,-,High,Low,Low,Low,Yang 2021-2,2021
+rs-fMRI,ROI-based functional connectivity,Multi atlas,None,,,300,300,600,ABIDE,k-fold,72.5,71.7,73.3,C,,Ensemble,CRF + CNN,High,Low,Low,Low,A Ronicko 2020,2020
+rs-fMRI,ROI-based functional connectivity,SBC36,LASSO,,,15,45,60,Other,LOOCV,75,76.7,73.3,D,,LR,Sparse LR,Low,Low,Low,Low,Yamagata 2018,2018
+rs-fMRI,ROI-based functional connectivity,AAL116,Masking,,,510,536,1046,ABIDE,k-fold,69.2,64.7,73.5,D,C,AE + Softmax,Stacked SAE,High,High,Unclear,Low,Jung 2021,2021
+rs-fMRI,ROI-based functional connectivity,HO110,Threshold,,,102,88,190,ABIDE,LOOCV,71,69,74,C,,SVM,Linear kernel,High,Low,High,Low,Spera 2019,2019
+rs-fMRI,Dynamic functional connectivity + Whole brain intrinsic functional connectivity,Whole brain,WT,,,210,249,459,ABIDE,k-fold,70.5,67.9,74.2,C,B,CNN,Self-proposed,High,High,Low,Low,Aghdam 2019,2019
+rs-fMRI,Dynamic functional connectivity,CC200,RFE,,,399,472,871,ABIDE,k-fold,76.6,78.6,74.3,D,C,SVM,Linear kernel,High,Low,Low,Low,Karampasi 2021,2021
+rs-fMRI,Effective connectivity,HO110,DR,ICA,t test,127,135,262,ABIDE,LOOCV,69,63.5,74.6,D,C,Others,-,High,Low,High,Low,Haghighat 2022,2022
+rs-fMRI,ROI-based functional connectivity,AAL116,t test,,,119,144,263,ABIDE,k-fold,67.4,58.3,75,C,,Others,-,Unclear,High,Low,Low,Kam 2017,2017
+rs-fMRI,ROI-based functional connectivity,Brodmann’s areas,Elastic Nets,,,167,205,372,ABIDE,k-fold,70,65,75,C,,SVM,Linear kernel,High,Low,Low,Low,Bhaumik 2018,2018
+rs-fMRI,Graph theory,HO110,t test,LASSO,,403,468,871,ABIDE,k-fold,72.4,71.2,75,D,C,Others,GAT,High,Low,Low,Low,Yang 2021-2,2021
+rs-fMRI,Dynamic functional connectivity,CC200,AE,,,322,352,674,ABIDE,LOOCV,74.7,73,75,D,C,Others,-,High,Low,High,Low,Liu 2021,2021
+rs-fMRI,Whole brain intrinsic functional connectivity,Whole brain,t test,,,40,40,80,Other,LOOCV,79,83,75,D,C,LR,Simple LR,Low,Low,Low,Low,Anderson 2011,2011
+rs-fMRI,ROI-based functional connectivity,CC200,F score,,,505,530,1035,ABIDE,k-fold,70.9,70.7,75.5,D,C,AE + Softmax,-,High,Low,Low,Low,Zhang 2022,2022
+rs-fMRI,ROI-based functional connectivity,AAL116,None,,,403,468,871,ABIDE,k-fold,69.8,63.1,75.6,D,C,FCNN,-,High,Low,Low,Low,Hu 2020,2020
+rs-fMRI,ROI-based functional connectivity,AAL116,LASSO,,,539,573,1112,ABIDE,Split,79.6,83.6,75.6,D,C,Ensemble,-,High,High,Low,Low,Dai 2021,2021
+rs-fMRI,Dynamic functional connectivity,BASC64,MSTEPS,,,403,468,871,ABIDE,k-fold,74.7,73,76.3,D,C,Others,-,High,Low,Low,Low,Bayram 2021,2021
+rs-fMRI,ROI-based functional connectivity,CC400,None,,,505,530,1035,ABIDE,k-fold,75.3,74,76.6,D,C,FCNN,-,High,Low,Low,Low,Yang 2020,2020
+rs-fMRI,ROI-based functional connectivity,AAL116,LLFS,t test,RFE,45,47,92,ABIDE,LOOCV,79.4,82.2,76.6,C,,SVM,Multi kernel,Low,Low,Low,Low,Huang 2019-2,2019
+rs-fMRI,Graph theory,HO110,RFE,,,539,573,1112,ABIDE,k-fold,73,68.8,76.9,D,C,GNN,GFT + FCNN,High,Low,Low,Low,Cao 2021,2021
+rs-fMRI,Independent components,8 RSN,LLFS,,,79,105,184,ABIDE,k-fold,77.7,78.6,76.9,D,C,CNN,Standard,High,Low,Low,Low,Yang 2021-1,2021
+rs-fMRI,Graph theory,AAL116,Threshold,RFE,,119,116,235,ABIDE,LOOCV,74.9,71.2,78,D,C,Others,-,High,Low,High,Low,Song 2019,2019
+rs-fMRI,ROI-based functional connectivity,AAL116,t test,,,45,47,92,ABIDE,LOOCV,81.5,84.4,78.7,C,,SVM,Linear kernel,High,Low,Low,Low,Li 2017,2017
+rs-fMRI,ROI-based functional connectivity,CC200,None,,,505,530,1035,ABIDE,k-fold,70.8,62.2,79.1,D,C,AE + Softmax,Stacked SAE,High,Low,Low,Low,Almuqhim 2021,2021
+rs-fMRI,Dynamic functional connectivity,AAL116,MTFS,EM,,403,468,871,ABIDE,k-fold,76.8,72.5,79.9,D,C,SVM,Multi kernel,High,Low,Low,Low,Liu 2020-1,2020
+rs-fMRI,High-order functional connectivity,AAL116,LASSO,,,54,46,100,ABIDE,k-fold,81,82,80,C,,SVM,Linear kernel,Low,Low,High,Low,Zhao 2018-1,2018
+rs-fMRI,ROI-based functional connectivity,Self-generated,F score,,,112,128,240,ABIDE,LOOCV,79.2,77.8,80.5,C,,SVM,Linear kernel,High,Low,Low,Low,Chen 2016,2016
+rs-fMRI,ROI-based functional connectivity,BASC64,BOF,,,75,100,175,ABIDE,k-fold,69.7,54.6,80.9,D,C,SVM,RBF kernel,High,Low,Low,Low,Cancino 2021,2021
+rs-fMRI,Graph theory,HO110,None,,,403,468,871,ABIDE,k-fold,79.5,78.3,81.2,D,C,GNN,GFT + FCNN,High,Low,Low,Low,Shao 2021,2021
+rs-fMRI,Dynamic functional connectivity,AAL116,LLFS,LASSO,,45,47,92,ABIDE,k-fold,71.4,60.5,81.6,C,,SVM,RBF kernel,Low,Low,High,Low,Wee 2016,2016
+rs-fMRI,ROI-based functional connectivity,CC400,None,,,505,530,1035,ABIDE,k-fold,76,70,81.7,D,C,CNN,Self-proposed,High,Low,Low,Low,Shrivastava 2020,2020
+rs-fMRI,ROI-based functional connectivity,AAL90,Threshold,,,443,435,878,ABIDE,Split,81.1,80.4,81.7,D,C,SVM,Gaussian kernel,High,Low,Low,Low,Mahanand 2016,2016
+rs-fMRI,Whole brain intrinsic functional connectivity,Whole brain,BOF,,,19,19,38,ABIDE,Split,81,79,83,C,,SVM,Linear kernel,Unclear,Low,Low,Low,Ahammed 2021-2,2021
+rs-fMRI,Wavelet-based dynamics features,7 RSN,ICA,DR,,24,30,54,Other,LOOCV,86.7,91.7,83.3,C,,SVM,Polynomial kernel,Unclear,Low,Low,Low,Bernas 2018,2018
+rs-fMRI,Dynamic functional connectivity,AAL116,t test,LASSO,,45,47,92,ABIDE,k-fold,83,82,84,C,,SVM,Linear kernel,Low,Low,High,Low,Zhao 2020,2020
+rs-fMRI,Graph theory + Personal characteristics,BNA246,Graph based,,,270,305,575,ABIDE,k-fold,74.5,63.5,84.3,D,C,CNN,Self-proposed,High,Low,Low,Low,Byeon 2020,2020
+rs-fMRI,ROI-based functional connectivity,CC400,None,,,505,530,1035,ABIDE,Split,79.2,69.6,85,D,C,CNN,AlexNet,High,Low,Low,Low,Boppana 2021,2021
+rs-fMRI,ROI-based functional connectivity,DES162,RFE,,,59,59,118,Other,k-fold,79.1,73.3,85,D,,LR,Simple LR,Low,Low,High,Low,Plitt 2015,2015
+rs-fMRI,Graph theory,AAL116,Prim algorithm,,,59,46,105,ABIDE,k-fold,86.7,87.5,85.7,D,C,SVM,RBF kernel,Low,High,High,Low,Shi 2020,2020
+rs-fMRI,ROI-based functional connectivity,AAL90,SMF,t test,,5050,530,5580,ABIDE,Split,88,91.5,86.5,D,C,SVM,Linear kernel,High,Low,High,Low,Subbaraju 2018,2018
+rs-fMRI,ROI-based functional connectivity,Multi atlas,SLR,,,159,197,356,ABIDE,k-fold,89.1,91,87.7,D,C,Ensemble,-,Unclear,Low,Low,Low,Huang 2020,2020
+rs-fMRI,ROI-based functional connectivity,AAL90,Threshold,,,312,328,640,ABIDE,k-fold,90.3,92.3,88.4,C,,Others,PNN,High,Low,Low,Low,Iidaka 2015,2015
+rs-fMRI,ROI-based functional connectivity,Multi atlas,L1SCCA,,,74,107,181,Other,LOOCV,85,80,89,D,,LR,Sparse LR,Low,Low,High,Low,Yahata 2016,2016
+rs-fMRI,Power spectral density,Whole brain,AE,,,123,160,283,NDAR,LOOCV,92,93,89,C,,SVM,RBF kernel,Low,High,High,Low,Dekhil 2018,2018
+rs-fMRI,ROI-based functional connectivity,Multi atlas,SLR,,,36,46,82,ABIDE,k-fold,81.7,71.8,89.5,D,C,SVM,Linear kernel,Unclear,High,High,Low,Huang 2019-1,2019
+rs-fMRI,Independent components,Whole brain,ICA,,,392,407,799,ABIDE,,89.5,89.3,89.7,D,C,Ensemble,-,High,Low,Unclear,Low,Syed 2017,2017
+rs-fMRI,Graph theory,AAL116,SSFA,,,28,19,47,ABIDE,k-fold,95,97,91,,,SVM,Gaussian kernel,High,Low,High,Low,Kazeminejad 2018,2018
+rs-fMRI,Effective connectivity,AAL116,t test,,,48,30,78,ABIDE,LOOCV,87,80,92,D,C,SVM,RBF kernel,High,Low,Low,Low,Huang 2021,2021
+rs-fMRI,Whole brain intrinsic functional connectivity,Whole brain,t test,MRMR,LLFS,23,27,50,ABIDE,k-fold,89.7,87.6,92,D,C,Ensemble,-,Unclear,High,High,Low,Zhang 2021-1,2021
+rs-fMRI,ROI-based functional connectivity,RBS,AE,,,155,148,303,ABIDE,k-fold,91.1,89.9,92,C,,Others,-,High,Low,Low,Low,Mahmoud 2021,2021
+rs-fMRI,Dynamic functional connectivity,AAL116,WT,,,41,41,82,ABIDE,Split,85.9,79.3,92.6,,,KNN,-,Unclear,High,Unclear,Low,Al-Hiyali 2021,2021
+rs-fMRI,Dynamic functional connectivity,Multi-network,Self-proposed,,,30,30,60,ABIDE,LOOCV,90,87,93,C,,SVM,Multi kernel,Unclear,Low,Low,Low,Price 2014,2014
+rs-fMRI,ROI-based functional connectivity,Power150,LLFS,,,126,126,252,ABIDE,Split,90.8,89,93,D,C,Ensemble,RF,Low,Low,Low,Low,Chen 2015,2015
+rs-fMRI,Dynamic functional connectivity,AAL116,HMM,,,47,73,120,ABIDE,k-fold,90.1,85.5,93.2,C,,SVM,Linear kernel,High,Low,High,Low,17-Jun,2017
+rs-fMRI,Power spectral density,Whole brain,None,,,117,81,198,ABIDE,LOOCV,96.2,98,93.6,C,,AE + Softmax,SAE,High,Low,High,Low,Xiao 2019,2019
+rs-fMRI,ROI-based functional connectivity,AAL116,SSAE,RFE,,501,553,1054,ABIDE,k-fold,94.9,94,95.6,D,C,LR,Simple LR,High,Low,Low,Low,Wang 2019-1,2019
+rs-fMRI,Whole brain intrinsic functional connectivity,Whole brain,None,,,79,105,184,ABIDE,,94.7,92.5,96.2,D,C,CNN,DarkNet-19,High,Low,Unclear,Low,Ahammed 2021-1,2021
+rs-fMRI,ROI-based functional connectivity,DOS160,Extra tree,,,403,468,871,ABIDE,k-fold,80.5,63.7,100,D,C,SVM,Linear kernel,High,Low,Low,Low,Benabdallah 2021,2021
+rs-fMRI,Whole brain intrinsic functional connectivity,Whole brain,ICA,DR,,20,20,40,NDAR,LOOCV,83,67,100,C,,LR,Simple LR,Low,Low,Low,Low,Uddin 2013,2013
+rs-fMRI,Graph theory,6 RSN,Graph based,ICA,,103,192,295,ABIDE,LOOCV,88.7,77.4,100,D,C,SVM,RBF kernel,Low,High,High,Low,Sun 2021,2021
+rs-fMRI,ROI-based functional connectivity,Self-generated,t test,,,11,48,59,NDAR,LOOCV,96.6,81.8,100,B,A,SVM,Linear kernel,Low,Low,Low,Unclear,Emerson 2017,2017
+s-MRI,Surface-based morphological features,,LLFS,PCA,,50,150,200,ABIDE,k-fold,75,98.6,40,D,,SVM,Linear kernel,Low,Low,Low,Low,Graa 2019,2019
+s-MRI,Histogram of oriented gradients + Personal characteristics,,MRMR,,,538,573,1111,ABIDE,Split,64.1,75.7,51.9,D,C,SVM,RBF kernel,High,Low,Low,Low,Ghiassian 2016,2016
+s-MRI,Histogram of oriented gradients,,LLFS,,,119,131,250,ABIDE,k-fold,65,73,58,D,C,SVM,Linear kernel,High,Unclear,Low,Low,Chen 2020,2020
+s-MRI,Surface-based morphological features + Cortical thickness,,None,,,361,373,734,ABIDE,LOOCV,60,57,64,D,C,Ensemble,RF,High,Unclear,High,Low,Katuwal 2015,2015
+s-MRI,Volume-based morphological features,,Manual,,,120,136,256,ABIDE,Split,73,92,68,D,,SVM,Linear kernel,Unclear,Low,Low,Low,Denier 2022,2022
+s-MRI,Structural covariance network,,None,,,518,567,1085,ABIDE,k-fold,71.8,81.3,68.8,D,C,CNN,ResNet,High,Low,Low,Low,Gao 2020,2020
+s-MRI,Volume-based morphological features,,VBM,,,79,105,184,ABIDE,Split,70,53,72,D,C,Others,PBL-McRBFN,Unclear,Low,Low,Low,Vigneshwaran 2013,2013
+s-MRI,Cortical thickness,,None,,,22,16,38,Other,k-fold,87,95,75,C,,Others,-,Low,Low,High,Low,Jiao 2010,2010
+s-MRI,Voxel density,,t test,,,81,50,131,Other,LOOCV,73.3,71.6,76,C,,Ensemble,-,High,Low,High,Unclear,Varol 2012,2012
+s-MRI,Volume-based morphological features,,LASSO,,,54,57,111,ABIDE,k-fold,75.4,74.6,76,C,,SVM,Linear kernel,High,Low,Low,Low,Wang 2016,2016
+s-MRI,Volume-based morphological features + Voxel density,,None,,,30,28,58,ABIDE,k-fold,82,82.4,81.7,D,C,CNN,3D Grad-CAM,Unclear,Low,High,Low,Yang 2021,2021
+s-MRI,Normalized image,,DSM,,,171,176,347,Other,Split,84.4,85,84,B,A,CNN,CSResNet-18,Low,Low,Low,Low,Gou 2022,2022
+s-MRI,Surface-based morphological features,,LASSO,DL,,364,361,725,ABIDE,k-fold,83,80,85,D,C,Ensemble,-,Low,Low,Low,Low,Fu 2021,2021
+s-MRI,Volume-based morphological features,,VBM,,,60,60,120,Other,LOOCV,86.7,86.4,86.8,D,,SVM,Linear kernel,Low,Low,High,Low,Gorriz 2019,2019
+s-MRI,Cortical thickness,,RFE,,,40,36,76,Other,LOOCV,84.2,80,88.9,C,,SVM,RBF kernel,High,Unclear,High,Low,Squrcina 2021,2021
+s-MRI,Path signature + Personal characteristics,,None,,,30,30,60,Other,k-fold,87,83,90,A,,FCNN,SFCNN,Low,Low,Low,Low,Zhang 2020,2020
+s-MRI,Surface-based morphological features + Personal characteristics,,Manual,,,26,24,50,ABIDE,Split,88,80,92.9,,,Ensemble,RF,Unclear,Low,Low,Low,Mishra 2021,2021
+s-MRI,Volume-based morphological features,,None,,,74,208,282,Other,k-fold,92,87,93,A,,Ensemble,CNN + SFCNN,Low,Low,Low,Low,Gao 2021,2021
+s-MRI,Surface-based morphological features + Volume-based morphological features + Cortical thickness,,LLFS,,,34,145,179,NDAR,k-fold,93.8,88,95,B,A,SVM,Linear kernel,Low,Low,Low,Low,Hazlett 2017,2017
+s-MRI,Volume-based morphological features,,F score,,,78,104,182,ABIDE,k-fold,90.4,84.4,95.9,D,C,AE + Softmax,Stacked SAE,High,Low,Low,Low,Kong 2019,2019
+s-MRI,Volume-based morphological features + Cortical thickness,,t test,MRMR,RFE,58,59,117,NDAR,k-fold,96.3,95,97,C,,SVM,Multi kernel,Low,Unclear,Low,Low,Wee 2014,2014
+s-MRI,Surface-based morphological features + Cortical thickness,,Elastic net,LASSO,,100,100,200,ABIDE,Split,96.3,95.5,97,C,,Others,-,Low,Low,Low,Low,Pua 2019,2019
+T-MRI,Biological motion perception task,,Bootstrap,,,21,19,40,Other,k-fold,64.5,70.7,60.9,B,,Others,-,Unclear,Low,High,Unclear,Dvornek 2018,2018
+T-MRI,Biopoint task,,Graph based,,,75,43,118,Other,Split,76,82,68.8,,,GNN,-,Unclear,Low,Low,Unclear,Li 2019,2019
+T-MRI,Response to speech,,LLFS,WT,,50,50,100,NDAR,k-fold,80,84,76,B,,CNN,2D CNN,Low,Low,Low,Low,Haweel 2021-3,2021
+T-MRI,Response to speech,,LLFS,WT,Manual,33,33,66,Other,k-fold,77.2,78.1,76.5,B,,CNN,1D CNN,Low,Low,Low,Low,Haweel 2021-2,2021
+T-MRI,Language task,,LLFS,,,30,30,60,NDAR,,75.8,74.8,76.7,B,,Others,-,Unclear,Low,Unclear,Low,Haweel 2019,2019
+T-MRI,Biopoint task,,None,,,72,43,115,Other,Split,79.8,72.6,85.4,,,GNN,BrainGNN,Unclear,Low,Low,Low,Li 2021,2021
+T-MRI,Response to speech,,LLFS,WT,,50,50,100,NDAR,k-fold,86,82,92,B,,CNN,2D CNN,Low,Low,Low,Low,Haweel 2021-1,2021

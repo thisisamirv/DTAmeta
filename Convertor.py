@@ -31,4 +31,4 @@ for i in enumerate(data['SEN']):
     else:
         continue
 
-df.to_csv('Data_Modified.csv')
+df.to_csv('Data_m.csv')
